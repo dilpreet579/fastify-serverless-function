@@ -1,9 +1,23 @@
 {
   "name": "fastify",
+  "version": "1.0.0",
   "repository": "https://github.com/vercel/examples.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./api/index.js"
+  },
   "license": "MIT",
+  "type": "module",
   "private": true,
   "dependencies": {
-    "fastify": "^4.25.2"
+    "fastify": "^5.0.0",
+    "@fastify/formbody": "^8.0.1",
+    "@fastify/websocket": "^11.0.1",
+    "@types/node": "^18.0.6",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.1",
+    "express-ws": "^5.0.2",
+    "ws": "^8.18.0"
   }
 }
