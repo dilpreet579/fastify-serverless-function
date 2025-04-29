@@ -18,7 +18,7 @@ The OpenAI-Realtime-API is a Node.js backend that acts as a real-time bridge bet
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/dilpreet579/openai-realtime.git
+git clone https://github.com/dilpreet579/fastify-serverless-function.git
 ```
 
 ### 2. Install Dependencies
@@ -31,7 +31,7 @@ Create a `.env` file in the root directory:
 ```env
 OPENAI_API_KEY=your_openai_api_key
 WEBHOOK_URL=https://your.webhook.url/endpoint
-PORT=3001
+PORT=3000
 ```
 - `OPENAI_API_KEY`: Your OpenAI API key with access to the Realtime API
 - `WEBHOOK_URL`: (Optional) Endpoint to receive structured call data
