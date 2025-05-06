@@ -31,7 +31,7 @@ Create a `.env` file in the root directory:
 ```env
 OPENAI_API_KEY=your_openai_api_key
 WEBHOOK_URL=https://your.webhook.url/endpoint
-PORT=3000
+PORT=3001
 ```
 - `OPENAI_API_KEY`: Your OpenAI API key with access to the Realtime API
 - `WEBHOOK_URL`: (Optional) Endpoint to receive structured call data

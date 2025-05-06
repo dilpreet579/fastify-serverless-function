@@ -117,7 +117,7 @@ async function makeChatGPTCompletion(transcript) {
     }
 }
 
-// Function to send data to Make.com webhook
+//Function to send data to Make.com webhook
 async function sendToWebhook(url, payload) {
     console.log("Sending data to webhook:", JSON.stringify(payload, null, 2));
     try {
@@ -146,7 +146,7 @@ async function sendToWebhook(url, payload) {
     }
 }
 
-// Test function to verify webhook functionality
+//Test function to verify webhook functionality
 export async function testWebhook(url) {
     const testData = {
         customerName: "Test User",
@@ -158,7 +158,7 @@ export async function testWebhook(url) {
     await sendToWebhook(url, testData);
 }
 
-// Main function to extract and send customer details
+//Main function to extract and send customer details
 export async function processTranscriptAndSend(
     transcript,
     url,
