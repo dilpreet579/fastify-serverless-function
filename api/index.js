@@ -70,7 +70,7 @@ fastify.all("/incoming-call", async (req, res) => {
   console.log("📲 Incoming call");
   res.type("text/xml").send(`<?xml version="1.0" encoding="UTF-8"?>
                           <Response>
-                              <Say>Hi, how can we help you today?</Say>
+                              <Say>Hi, Welcome to Grewal Eye Institute. How can we help you today?</Say>
                               <Connect>
                                   <Stream url="wss://${req.headers.host}/media-stream" />
                               </Connect>
