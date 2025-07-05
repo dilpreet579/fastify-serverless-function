@@ -14,7 +14,7 @@ import {
 } from "./openai.service.js";
 
 // Constants
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 // Retrieve the OpenAI API key from environment variables
 const { OPENAI_API_KEY, WEBHOOK_URL } = process.env;
 
